@@ -31,11 +31,11 @@ document.addEventListener('DOMContentLoaded', function () {
                     playerDisplay.innerHTML = 'playerX';
                     checkWinner(playerOsymbol);
                 }
-                setTimeout(result, 0);
             }
             else {
                 alert('The box is already filled.');
             }
+            setTimeout(result, 0);
         }
         else {
             if (confirm(`${winner_name} won the game. Press ok to play again.`)) {
